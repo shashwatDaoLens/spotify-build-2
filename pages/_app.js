@@ -9,7 +9,7 @@ export default function App({
   useEffect(() => {
     if (window.magicpulseinit) {
       try {
-        window.magicpulseinit("YOUR_APP_ID");
+        window.magicpulseinit("CRUNCH_PLAYGROUND_1 ");
       } catch (error) {
         console.error("Failed to load the Magic Pulse package", error);
       }
